@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/gradient_splash_screen.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_account_authentication.xml" value="0.5911458333333334" />
+        <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_forgot.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_gmail.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_login.xml" value="0.5911458333333334" />
@@ -12,6 +13,8 @@
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_otp_file.xml" value="0.5820512820512821" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_password.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_register.xml" value="0.5911458333333334" />
+        <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/activity_main.xml" value="0.575" />
+        <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/fragment_activity.xml" value="0.575" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/fragment_check_your_email.xml" value="0.575" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/fragment_email_login.xml" value="0.5" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/fragment_email_otp.xml" value="0.575" />
