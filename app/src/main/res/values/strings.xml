@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Resourceful Parenting</string>
+    <string name="login_header_image">Resourceful parenting login header image.</string>
+    <string name="email_or_username">Email or username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="not_registered_sign_up">Not registered? Sign up here</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="sign_up">Sign up</string>
+    <string name="account_login">Already have an account? Login</string>
+    <string name="open_email_app">Open email app</string>
+    <string name="resend_email">Resend email</string>
+    <string name="text_open_email_instructions">To confirm your email address, please tap the button in email sent by us to your email </string>
+    <string name="or_dash">----- or -----</string>
+    <string name="manually_enter_otp">Manually enter OTP</string>
+    <string name="text_resend_email">In case you fail to receive email or link expires</string>
+    <string name="text_otp_instructions">To verify your email address, Enter the OTP we sent to</string>
+    <string name="verify_email">Verify email</string>
+    <string name="resend_verification_email">Resend verification email</string>
+    <string name="email_valid_for_10_minutes">Email valid for 10 minutes</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email_verification">Email verification</string>
+    <string name="email_otp">Email OTP</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="forgot_password_instructions">Enter your email or username below and we will send you new password on your verified email address, \nIn case your email has not been linked to your account please register new account.</string>
+    <string name="receive_new_password">Receive new password</string>
+    <string name="username_or_email">Username or email</string>
+</resources>
