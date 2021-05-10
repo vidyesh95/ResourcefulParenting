@@ -36,4 +36,7 @@
         Service</a> <a href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a>
         <a href="https://support.google.com/business/answer/7213077?hl=en">Content Policy</a>
     </string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="sign_in_with_email">Sign in with Email</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
 </resources>

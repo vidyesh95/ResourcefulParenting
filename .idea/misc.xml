@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/churi/.gradle/caches/transforms-3/23728771d242b6d9780ee92fa3ebc2d3/transformed/jetified-play-services-base-17.1.0/res/drawable/common_google_signin_btn_icon_light_normal.xml" value="0.5911458333333334" />
+        <entry key="..\:/Users/churi/.gradle/caches/transforms-3/8aa7b64b5ba280e50b711b284142a485/transformed/jetified-facebook-common-5.15.3/res/drawable/com_facebook_button_icon.xml" value="0.5911458333333334" />
+        <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/facebook_button_text_color.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/gradient_splash_screen.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_account_authentication.xml" value="0.5911458333333334" />
+        <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_email_filled_24dp.xml" value="0.5911458333333334" />
+        <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_facebook_logo.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_forgot.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_gmail.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5911458333333334" />
@@ -13,6 +18,7 @@
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_otp_file.xml" value="0.5820512820512821" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_password.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_register.xml" value="0.5911458333333334" />
+        <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/drawable/ic_search.xml" value="0.5911458333333334" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/activity_main.xml" value="0.575" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/fragment_activity.xml" value="0.575" />
         <entry key="..\:/Users/churi/AndroidStudioProjects/ResourcefulParenting/app/src/main/res/layout/fragment_check_your_email.xml" value="0.575" />
