@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.resourcefulparenting.R
+import com.resourcefulparenting.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
@@ -15,12 +16,19 @@ class HomeFragment : Fragment() {
     }
 
     private lateinit var viewModel: HomeViewModel
+    private var _binding: FragmentHomeBinding? = null
+
+    // This property is only valid between onCreateView and onDestroyView
+    private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        val view: View = binding.root
+        return view
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -29,4 +37,8 @@ class HomeFragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }

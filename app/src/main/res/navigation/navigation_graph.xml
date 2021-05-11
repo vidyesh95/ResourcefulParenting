@@ -2,7 +2,8 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation">
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -23,6 +24,12 @@
         tools:layout="@layout/fragment_activity" />
 
     <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.resourcefulparenting.ui.account.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
         android:id="@+id/navigation_login"
         android:name="com.resourcefulparenting.ui.login.LoginFragment"
         android:label="Login"
@@ -33,6 +40,12 @@
         android:name="com.resourcefulparenting.ui.emaillogin.EmailLoginFragment"
         android:label="Email login"
         tools:layout="@layout/fragment_email_login" />
+
+    <fragment
+        android:id="@+id/navigation_forgot_password"
+        android:name="com.resourcefulparenting.ui.forgotpassword.ForgotPasswordFragment"
+        android:label="Forgot Password"
+        tools:layout="@layout/fragment_forgot_password" />
 
     <fragment
         android:id="@+id/navigation_register"

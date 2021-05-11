@@ -1,12 +1,12 @@
 package com.resourcefulparenting.ui.emaillogin
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.resourcefulparenting.R
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.resourcefulparenting.databinding.FragmentEmailLoginBinding
 
 class EmailLoginFragment : Fragment() {
 
@@ -15,12 +15,19 @@ class EmailLoginFragment : Fragment() {
     }
 
     private lateinit var loginViewModel: EmailLoginViewModel
+    private var _binding: FragmentEmailLoginBinding? = null
+
+    // This property is only valid between onCreateView and onDestroyView
+    private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_email_login, container, false)
+        _binding = FragmentEmailLoginBinding.inflate(inflater, container, false)
+        val view: View = binding.root
+        return view
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -29,4 +36,9 @@ class EmailLoginFragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }

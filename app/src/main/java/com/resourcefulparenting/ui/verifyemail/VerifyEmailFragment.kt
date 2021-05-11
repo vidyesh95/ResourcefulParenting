@@ -1,12 +1,12 @@
 package com.resourcefulparenting.ui.verifyemail
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.resourcefulparenting.R
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
+import com.resourcefulparenting.databinding.FragmentVerifyEmailBinding
 
 class VerifyEmailFragment : Fragment() {
 
@@ -15,12 +15,19 @@ class VerifyEmailFragment : Fragment() {
     }
 
     private lateinit var viewModel: VerifyEmailViewModel
+    private var _binding: FragmentVerifyEmailBinding? = null
+
+    // This property is only valid between onCreateView and onDestroyView
+    private val binding get() = _binding!!
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_verify_email, container, false)
+        _binding = FragmentVerifyEmailBinding.inflate(inflater, container, false)
+        val view: View = binding.root
+        return view
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -29,4 +36,8 @@ class VerifyEmailFragment : Fragment() {
         // TODO: Use the ViewModel
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
 }
