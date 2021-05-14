@@ -13,6 +13,8 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+
+        <item name="android:colorBackground">@color/grey_200</item>
     </style>
 
     <!-- Splash application theme. -->
@@ -26,7 +28,7 @@
     </style>
 
     <style name="ThemeOverlay.App.BottomNavigationView" parent="">
-        <item name="colorPrimary">?android:attr/windowBackground</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorOnPrimary">@color/black_custom</item>
     </style>
 </resources>

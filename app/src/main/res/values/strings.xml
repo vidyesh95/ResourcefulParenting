@@ -46,4 +46,13 @@
     <string name="username_gmail_com">username@gmail.com</string>
     <string name="text_level">Level 5</string>
     <string name="pro">PRO</string>
+    <string name="tect_promo">Become a pro member today to earn limited time 15% discount</string>
+    <string name="help_center">Help center</string>
+    <string name="your_data">Your data</string>
+    <string name="time_watched">Time watched</string>
+    <string name="rate_us">Rate us</string>
+    <string name="forum">Forum</string>
+    <string name="settings">Settings</string>
+    <string name="purchases_and_memberships">Purchases and memberships</string>
+    <string name="my_level">My level</string>
 </resources>
